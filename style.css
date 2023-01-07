@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* banner sections styles */
+.banner {
+  background-image: url("./images/banner/banner2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 230px;
+}
+
+.banner-info {
+  text-align: right;
+  width: 50%;
+  float: right;
+}
+.banner-title {
+  font-weight: 900;
+  font-size: 65px;
+  font-family: "Work Sans";
+  text-align: right;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 32px 0;
+}
+.contact-btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: white;
+  background: #f15b22;
+  padding: 20px 25px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* failure sections styles */
+.failures-section {
+  display: flex;
+  margin: 130px 250px;
+  align-items: center;
+}
+.person-img {
+  margin-right: 87px;
+}
+.failures-details {
+  margin-top: 227px;
+}
+.failures-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 24px;
+  margin-right: 150px;
+}
+.failures-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.fa-check {
+  width: 24px;
+  height: 24px;
+  color: aqua;
+}
+
+/* plans sections style */
+.plans-section {
+  margin: 130px 230px;
+}
+.plans-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin: 55px auto;
+  text-align: center;
+}
+.all-plans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.item-img {
+  margin: 2px auto;
+  margin-bottom: 24px;
+}
+.item-title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+.item-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+/* routine sections style */
+.daily-routine {
+  margin: 130px 230px;
+}
+.routine-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin: 55px auto;
+  text-align: center;
+}
+.daily-routine table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.daily-routine table th {
+  background-color: lightgray;
+  color: #151414;
+  padding: 20px 10px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  border: 1px solid black;
+}
+.daily-routine table td {
+  padding: 15px 0;
+  border: 1px solid black;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+/* Watch sections style */
+.watch-section {
+  border-radius: 10px;
+  margin: 130px 230px;
+  background-image: url("./images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.watch-container {
+  border-radius: 10px;
+  background: linear-gradient(to right, #f15b22, #f84b0700);
+  padding: 59px 64px;
+}
+.container-title {
+  font-family: "Work Sans";
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 24px;
+  width: 459px;
+}
+.call-now-btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding: 20px 36px;
+  border-radius: 5px;
+  border: none;
+  color: #f15b22;
+}
+
+/* footer styles */
+footer {
+  background: #151414;
+  padding: 130px 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-container {
+  color: white;
+  width: 485px;
+}
+.title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 16px;
+}
+.description {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.icons {
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe-container {
+  width: 350px;
+}
+.subscribe-title {
+  color: white;
+  margin-bottom: 31px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+}
+.subscribe-container input {
+  width: 100%;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 21px;
+  margin-bottom: 16px;
+  outline: none;
+  background: transparent;
+  border: 1px solid lightgray;
+  color: #f3f3f3;
+  border-radius: 10px;
+}
+.subscribe-btn {
+  padding: 20px 36px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+  border-radius: 10px;
+  color: #f15b22;
+}
